@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'redditclone';
+
+  add_article(title:HTMLInputElement, link:HTMLInputElement){
+    console.log(title.value);
+    console.log(link.value);
+  }
 }
